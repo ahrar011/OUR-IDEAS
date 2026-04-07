@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #212121;
+    color: #ababab;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.Title {
+    font-size: 75px;
+    text-align: center;
+    color: #0fa392;
+}
+
+.options-container {
+    position: fixed;   
+    top: 15px;
+    right: 15px;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #00ffd5;
+    z-index: 1000; 
+}
+
+.options-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.option-btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background: #00ffd5;
+    color: black;
+}
+.TitleOf {
+    font-size: 45px;
+    border-bottom: 2px solid #0fa392;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.langP {
+    font-size: 35px;
+    color: #4B8BBE;
+    text-align: center;
+
+}
+.langHCJ {
+    font-size: 35px;
+    text-align: center;
+}
+
+.langHCJ .html {
+    color: #E34F26;
+}
+
+.langHCJ .css {
+    color: #1572B6;
+}
+
+.langHCJ .js {
+    color: #F7DF1E;
+}
+.list {
+    list-style: square;
+}
+.idea {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.2s;
+
+}
+.idea:hover {
+    color: #0fa392;
+    transform: translateX(5px);
+}
+.desc-box {
+    background: #222;
+    color: #00ffd5;
+    padding: 10px;
+    margin: 5px 0 10px 20px;
+    border-left: 3px solid #00ffd5;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
